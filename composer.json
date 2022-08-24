@@ -27,5 +27,6 @@
                 "GCS": "Liou2021\\Gcs\\GCSFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
