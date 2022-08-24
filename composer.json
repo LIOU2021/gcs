@@ -1,6 +1,7 @@
 {
     "name": "liou2021/gcs",
     "description": "storage of gcp for laravel 9",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Liou2021\\Gcs\\": "src/"
