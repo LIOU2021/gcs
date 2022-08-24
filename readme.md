@@ -29,3 +29,12 @@ return[
 ];
 
 ```
+
+# common
+```php
+return \GCS::allFiles();
+
+return \GCS::Files('test/');
+
+return \GCS::put($request->file, $path);
+```
