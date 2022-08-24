@@ -21,7 +21,7 @@ composer require liou2021/gcs
 php artisan vendor:publish --provider="Liou2021\Gcs\GCSServiceProvider"
 ```
 
-#edit your config(config/gcs.php)
+# edit your config(config/gcs.php)
 ```php
 return[
         'bucket'=>'your bucket name',
