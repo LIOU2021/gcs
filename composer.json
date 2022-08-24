@@ -12,5 +12,20 @@
             "email": "liou95145hf@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^9.19",
+        "guzzlehttp/guzzle": "^7.2",
+        "google/cloud": "^0.188.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liou2021\\Gcs\\GCSServiceProvider"
+            ],
+            "aliases": {
+                "GCS": "Liou2021\\Gcs\\GCSFacade"
+            }
+        }
+    }
 }

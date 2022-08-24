@@ -34,8 +34,8 @@ class GCS
 
     public function __construct()
     {
-        $this->bucket = config('filesystems.gcs.bucket');
-        $this->key = config('filesystems.gcs.key');
+        $this->bucket = config('gcs.bucket');
+        $this->key = config('gcs.key');
         $this->connect = $this->connect();
     }
 
