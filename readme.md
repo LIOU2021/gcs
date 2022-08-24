@@ -38,3 +38,8 @@ return \GCS::Files('test/');
 
 return \GCS::put($request->file, $path);
 ```
+
+# Ref
+- [googleapis/google-cloud-php-storage](https://github.com/googleapis/google-cloud-php-storage)
+- [GoogleCloudPlatform/php-docs-samples](https://github.com/GoogleCloudPlatform/php-docs-samples/tree/master/storage/src)
+- [開發屬於自己的 Laravel 套件](https://tech.ray247k.com/blog/202107-laravel-package-development/)
