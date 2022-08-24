@@ -1,0 +1,16 @@
+{
+    "name": "liou2021/gcs",
+    "description": "storage of gcp for laravel 9",
+    "autoload": {
+        "psr-4": {
+            "Liou2021\\Gcs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jin",
+            "email": "liou95145hf@gmail.com"
+        }
+    ],
+    "require": {}
+}
